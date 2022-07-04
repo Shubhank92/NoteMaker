@@ -48,8 +48,6 @@ const ViewMoreModal = ({prop}) => {
 
 const CardView = ({props}) => {
     const { viewTitle, viewDescription, handleDelete, handleEdit, handleOpen, open, handleClose, title, description} = props;
-    console.log(viewTitle, 'title')
-    console.log(viewDescription, 'Des')
     if(description.length > 50 || title.length > 15) { 
     return (
                 <Grid item xs={12} sm={6} md={4} lg={3}>
